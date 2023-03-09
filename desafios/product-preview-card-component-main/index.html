@@ -12,10 +12,11 @@
 
 </head>
 <body>
-
   <section>
-    <!-- Add image link -->
-    <img src="images/image-product-mobile.jpg" alt="product image">
+    <picture>
+      <source media="(max-width: 870px)" srcset="images/image-product-mobile.jpg">
+      <img src="images/image-product-desktop.jpg" alt="product image">
+    </picture>
       <article>
         <p>P E R F U M E</p>
         <h1>Gabrielle Essence Eau De Parfum</h1>
@@ -28,9 +29,8 @@
           <p>$169.99</p>
         </div>
         <input type="button" value="Add to Cart">
-        <span class="material-symbols-outlined">shopping_cart</span>
+        <img src="images/icon-cart.svg" alt="cart" id="cart">
       </article>
-    <!-- Add to Cart -->
   </section>
 
 </body>

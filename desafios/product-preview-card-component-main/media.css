@@ -6,11 +6,13 @@
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
-        max-width: 700px;
+        max-width: 585px;
+        max-height: 400px;
     }
-
+    
     img {
         border-radius: 10px 0px 0px 10px;
+        max-height: 400px;
     }
 
     #price {
@@ -19,11 +21,15 @@
         justify-content: center;
     }
 
-    span {
-        color: white;
+    #price > h2 {
+        margin-left: 50px;
+    }
+
+    img#cart {
         position: absolute;
-        left: 66%;
-        bottom: 9%;
+        left: 61%;
+        bottom: 19%;
+        border-radius: 0%;
         cursor: pointer;
     }
 }
