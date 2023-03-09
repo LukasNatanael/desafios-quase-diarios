@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+
+@media screen and (min-width: 1440px) {
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        max-width: 700px;
+    }
+
+    img {
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    #price {
+        max-width: 65%;
+        font-family: 'Fraunces', serif;
+        justify-content: center;
+    }
+
+    span {
+        color: white;
+        position: absolute;
+        left: 66%;
+        bottom: 9%;
+        cursor: pointer;
+    }
+}
