@@ -1,7 +1,7 @@
 @charset 'UTF-8';
 
-@media screen and (min-width: 1440px) {
-    section {
+@media screen and (min-width: 900px) {
+    main {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -31,6 +31,10 @@
 
     #price > h2 {
         margin-left: 50px;
+    }
+
+    article > h1 {
+        width: 200px;
     }
 
     img#cart {
