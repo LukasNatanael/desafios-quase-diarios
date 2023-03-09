@@ -64,12 +64,13 @@ article > h1 {
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: 2em;
+    margin-top: 0.2em;
 }
 
 article > p {
     color: var(--dark-grayish-blue);
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 0.9em;
     line-height: 23px;
     max-width: 87%;
 }
@@ -90,18 +91,16 @@ article > p {
     margin: 15px;
 }
 
-#price > p {
-    font-size: 13px;
-    text-decoration: line-through;
+#price > del {
+    font-size: 0.9em;
     color: var(--dark-grayish-blue);
     font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
 }
 
 input {
     width: 100%;
-    padding: 18px;
-    border-radius: 8px;
+    padding: 1em;
+    border-radius: 0.8em;
     border: none;
     background-color: var(--dark-cyan);
     color: white;
@@ -117,9 +116,10 @@ input:hover {
 
 
 img#cart {
-    height: 22px;
+    height: 1.5em;
     position: absolute;
-    left: 32%;
-    bottom: 5.5%;
+    left: 30%;
+    bottom: 4.5%;
     border-radius: 0%;
+    cursor: pointer;
   }
