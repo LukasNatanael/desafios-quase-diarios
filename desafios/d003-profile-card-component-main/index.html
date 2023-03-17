@@ -5,31 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
   <title>Frontend Mentor | Profile card component</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="media.css">
-
 </head>
 <body>
-  <img src="images/bg-pattern-top.svg" alt="" class="bg-img-top">
-  <img src="images/bg-pattern-bottom.svg" alt="" class="bg-img-bottom">
+  <img src="images/bg-pattern-top.svg" alt="" class="bg-pattern-top bg">
+  <img src="images/bg-pattern-bottom.svg" alt="" class="bg-pattern-bottom bg">
+  <img src="images/bg-pattern-card.svg" alt="" class="bg-pattern-card">
   <main>
-    <img src="images/image-victor.jpg" alt="perfil image" class="img-perfil">
-    <img src="images/bg-pattern-card.svg" alt="background image" class="img-background">
-    <section class="content">
-      <section class="information">
-        <h1>Victor Crest <span>26</span></h1>
-        <span>London</span>
-      </section>
-      <section class="social">
-        <h3>80K</h3>
-        <p>Followers</p>
-        <h3>803K</h3>
-        <p>Likes</p>
-        <h3>1.4K</h3>
-        <p>Photos</p>
-      </section>
-    </section>
+    <div class="info">
+      <img src="images/image-victor.jpg" alt="perfil image" class="img-perfil">
+      <span>
+        <h1>Victor Crest</h1>
+        <p>26</p>
+      </span>
+      <p>London</p>
+    </div>
+    <div class="foll">
+      <h3>80K</h3>
+      <h3>803K</h3>
+      <h3>1.4K</h3>
+    </div>
+    <div class="foll">
+      <p>Followers</p>
+      <p>Likes</p>
+      <p>Photos</p>
+    </div>
   </main>
 </body>
 </html>
