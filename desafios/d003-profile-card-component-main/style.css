@@ -19,19 +19,21 @@ body {
 }
 
 .bg {
-    width: 400px;
     position: absolute;
     z-index: -1;
 }
 
 .bg-pattern-top {
-    left: -15em;
-    top: -5em;
+    width: 250px;
+    right: 10em;
+    bottom: 28em;
 }
 
 .bg-pattern-bottom {
-    left: 40%;
-    top: 60%;
+    width: 250px;
+    left: 7em;
+    top: 28em;
+    overflow: hidden;
 }
 
 main {
@@ -56,6 +58,7 @@ main {
     border-radius: 50%;
     border: 5px solid white;
     width: 35%;
+    object-fit: cover;
 }
 
 .info {
